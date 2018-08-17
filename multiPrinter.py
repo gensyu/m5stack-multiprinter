@@ -107,7 +107,7 @@ def main():
     myprinter = Printer('./tools/mycharset.txt', './tools/fontset.bin')
     # myprinter.Print('Hello world!')
     # myprinter.Print('こんにちは')
-    myprinter.Print('常用漢字もバッチリ！', 0, 0)
+    myprinter.multiprint('常用漢字もバッチリ！', 0, 0)
     # myprinter.confirmPrint('Hello world!')
     # myprinter.confirmPrint('こんにちは')
     # myprinter.confirmPrint('常用漢字もバッチリ！')
